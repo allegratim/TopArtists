@@ -17,6 +17,8 @@ p{
 
 body{
     background-color: aqua;
+    margin:0;
+    padding:0;
 }
 
 h2 {
@@ -50,5 +52,56 @@ h3{
     font-family: 'Nova Oval', cursive;
     color: #777677;
 }
-#taylor:hover{
-    background-color: blue;
+h2:hover{
+    background-color:orange;
+    color:teal;
+}
+p:hover{
+    color:#fc97e8;
+    background-color:black;
+}
+li:hover{
+    Background-color:#3fef09;
+    color: #f70469;
+}
+
+h1#title{
+    color:#d442f4;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 30px;
+    text-align:Center;
+}
+.up{
+    position: fixed;
+    bottom:0;
+    right: 0;
+    margin: 0 15px 15px 0;
+    border-radius: 5%;
+    width: 60px;
+    height: 60px;
+    background: #FFF;
+    border: 3px solid #000;
+    cursor: pointer;
+    color: #000;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 15px;
+    transition: all 0.3s ease-in-out;
+}
+
+nav {
+    padding: 30px;
+    text-align: center;
+    background-color: #FFF;
+}
+nav a {
+    font-family: 'Gloria Hallelujah', cursive;
+    text-decoration: none;
+    font-size: 30px;
+    margin: 20px;
+    color #000;
+    transition: all 0.3s ease-in-out;
+}
+nav a:hover {
+    color: #f2b3de;
+}
