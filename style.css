@@ -3,7 +3,7 @@
 }
 h1 {
     color: pink;
-    margin-bottom 25px;
+    margin-bottom: 25px;
     font-family: 'Baloo Bhaina', cursive;
 }
 
@@ -30,7 +30,7 @@ h2 {
 
 iframe {
     border: 7px solid #f4940e;
-    margin-bottom 25px
+    margin-bottom: 25px
 }
 
 li{
@@ -99,7 +99,7 @@ nav a {
     text-decoration: none;
     font-size: 30px;
     margin: 20px;
-    color #000;
+    color: #000;
     transition: all 0.3s ease-in-out;
 }
 nav a:hover {
